@@ -68,6 +68,7 @@ span {
   font-size: 0.875rem;
   color: var(--color-tx-Very-dark-grayish-blue);
   font-weight: 500;
+  margin-bottom: 0.7rem;
 }
 .heading-secondary:hover {
   color: var(--color-tx-Soft-red);
@@ -75,4 +76,7 @@ span {
 .sub-dis {
   font-size: 0.75rem;
   color: var(--color-tx-Dark-grayish-blue);
+}
+.ac-hide {
+  display: none;
 }
