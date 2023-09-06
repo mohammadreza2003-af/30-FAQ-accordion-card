@@ -3,6 +3,7 @@
   margin: 0;
   box-sizing: border-box;
 }
+/* Colors */
 :root {
   --color-bg-Soft-violet: hsl(273, 75%, 66%);
   --color-bg-Soft-blue: hsl(240, 73%, 65%);
@@ -12,6 +13,7 @@
   --color-tx-Dark-grayish-blue: hsl(240, 6%, 50%);
   --color-tx-Light-grayish-blue: hsl(240, 5%, 91%);
 }
+/* Style */
 body {
   display: flex;
   justify-content: center;
@@ -99,6 +101,7 @@ span {
 .ac-hide {
   display: none;
 }
+/* Animations */
 @keyframes miniSlideDown {
   0% {
     transform: translateY(-2rem);
@@ -120,6 +123,7 @@ span {
     transform: translateX(-5rem);
   }
 }
+/* Media query */
 @media (max-width: 838px) {
   main {
     display: flex;
