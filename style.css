@@ -9,6 +9,7 @@ body {
   align-items: center;
   font-family: "Kumbh Sans", sans-serif;
   background: linear-gradient(180deg, #af68e9 0%, #6663e7 100%);
+  min-height: 100vh;
 }
 main {
   display: flex;
