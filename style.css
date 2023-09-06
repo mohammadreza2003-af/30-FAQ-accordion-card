@@ -66,8 +66,8 @@ span {
   animation: lefttoright 0.5s ease;
 }
 .img-box {
-  /* position: absolute; */
-  transform: translateX(-5rem) translateY(-15rem);
+  position: absolute;
+  transform: translateX(-35rem) translateY(7rem);
 }
 .heading-primary {
   font-size: 3.6rem;
@@ -146,5 +146,10 @@ span {
   .img-i {
     transform: translateX(0);
     width: 80%;
+  }
+  .img-box {
+    /* position: absolute; */
+    transform: translateX(-25rem) translateY(4rem);
+    /* width: 40%; */
   }
 }
