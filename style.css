@@ -58,11 +58,13 @@ span {
 }
 .img-i {
   transform: translateX(-5rem);
+  animation: lefttoright 0.5s ease;
 }
 .heading-primary {
   font-size: 3.6rem;
   margin-bottom: 0.8rem;
   font-weight: 700;
+  color: var(--color-tx-Very-dark-desaturated-blue);
 }
 .heading-secondary {
   font-size: 0.875rem;
@@ -91,7 +93,6 @@ span {
 .sub-dis {
   font-size: 0.75rem;
   color: var(--color-tx-Dark-grayish-blue);
-
   animation: miniSlideDown 0.5s ease;
 }
 
@@ -108,6 +109,15 @@ span {
   }
   100% {
     transform: translateY(0);
+  }
+}
+@keyframes lefttoright {
+  0% {
+    transform: translateX(-10rem);
+  }
+
+  100% {
+    transform: translateX(-5rem);
   }
 }
 @media (max-width: 838px) {
