@@ -57,10 +57,10 @@ span {
   margin: 0.8rem 0;
 }
 .img-i {
-  transform: translateX(-50px);
+  transform: translateX(-5rem);
 }
 .heading-primary {
-  font-size: 36px;
+  font-size: 3.6rem;
   margin-bottom: 0.8rem;
   font-weight: 700;
 }
