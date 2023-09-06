@@ -58,9 +58,16 @@ span {
   background-color: var(--color-tx-Light-grayish-blue);
   margin: 0.8rem 0;
 }
+.picture {
+  position: relative;
+}
 .img-i {
   transform: translateX(-5rem);
   animation: lefttoright 0.5s ease;
+}
+.img-box {
+  /* position: absolute; */
+  transform: translateX(-5rem) translateY(-15rem);
 }
 .heading-primary {
   font-size: 3.6rem;
